@@ -174,11 +174,11 @@ class UserController extends Controller
         return view("profile.index");
     }
 
-    public function postProfile(Request $request){
+    public function postProfile(Request $request)
+    {
         $user = auth()->user();
         $this->validate($request, [
             'name' => 'required',
-            'phone' => 'required',
             'email' => 'required|email|unique:users,email,'.$user->id
         ]);
 

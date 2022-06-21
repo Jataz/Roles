@@ -111,7 +111,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">
+                            <a href="{{ route('user.profile') }}" class="nav-link">
                                 <i class="nav-icon fas fa-user"></i>
                                 <p>
                                     Profile
@@ -174,7 +174,7 @@
         <!-- Main Footer -->
         <footer class="main-footer">
             <!-- Default to the left -->
-            <strong>Copyright © 2014-2019 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+            <strong>Copyright © 2022 <a>Powertel</a>.</strong> All rights reserved.
         </footer>
         <div id="sidebar-overlay"></div>
     </div>
